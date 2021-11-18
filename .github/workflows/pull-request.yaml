@@ -187,6 +187,7 @@ jobs:
             io.ktor:ktor-server-test-host
             io.ktor:ktor-webjars
             io.micrometer:micrometer-registry-prometheus
+            io.mockk:mockk
             jvm
             net.logstash.logback:logstash-logback-encoder
             org.apache.kafka:kafka-clients
