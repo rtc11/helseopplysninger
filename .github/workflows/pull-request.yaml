@@ -161,7 +161,6 @@ jobs:
     runs-on: ubuntu-latest
     # Ignore triggers from forks
     if: |
-      github.event.pull_request.head.repo.full_name == github.repository &&
       github.actor == 'dependabot[bot]'
     steps:
       - name: Whitelisted dependencies
