@@ -47,7 +47,7 @@ jobs:
           # sarif_file: snyk.sarif
           sarif_file: snyk_modified.sarif
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           path: |
             snyk.sarif
