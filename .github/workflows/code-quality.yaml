@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - uses: JetBrains/qodana-action@v3.2.1
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: code-inspection
           path: ${{ github.workspace }}/qodana
@@ -44,7 +44,7 @@ jobs:
           cp .scripts/licence-to-sarif.js ${{ github.workspace }}/qodana/licence-to-sarif.js
           node ${{ github.workspace }}/qodana/licence-to-sarif.js
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: license-audit
           path: ${{ github.workspace }}/qodana
