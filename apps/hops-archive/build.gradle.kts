@@ -33,7 +33,7 @@ dependencies {
     implementation("io.ktor:ktor-webjars:1.6.5")
     implementation("io.ktor:ktor-server-netty:1.6.5")
     implementation("io.micrometer:micrometer-registry-prometheus:1.8.0")
-    implementation("org.apache.kafka:kafka-clients:2.8.1")
+    implementation("org.apache.kafka:kafka-clients:3.3.2")
     runtimeOnly("ch.qos.logback:logback-classic:1.2.7")
     runtimeOnly("net.logstash.logback:logstash-logback-encoder:6.6")
     runtimeOnly("org.webjars:swagger-ui:4.1.0")

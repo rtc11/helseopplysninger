@@ -13,7 +13,7 @@ tasks {
 }
 
 dependencies {
-    api("org.apache.kafka:kafka-clients:2.8.1")
+    api("org.apache.kafka:kafka-clients:3.3.2")
     api("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.2")
 }
 
